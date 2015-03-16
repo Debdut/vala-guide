@@ -22,6 +22,6 @@ sudo apt-get install python-pygments
 
 Be warned however as this downloads nearly 400 MB of packages.
 
-Download Minted package from [minted.sty](https://code.google.com/p/minted/downloads/list) and copy it to /usr/share/texmf-texlive/tex/latex/, and then to update TEX:
+Download Minted package [minted.sty](https://code.google.com/p/minted/downloads/list) and copy it to /usr/share/texmf-texlive/tex/latex/, and then to update TEX:
 
 $sudo texhash

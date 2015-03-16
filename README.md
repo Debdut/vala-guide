@@ -1,4 +1,4 @@
-Download the compiled pdf version [here](https://github.com/Debdut/vala-guide/blob/master/The-Vala-Guide.pdf?raw=true)
+Download the compiled pdf version [here](https://github.com/Debdut/vala-guide/blob/master/downloads/The-Vala-Guide.pdf?raw=true)
 
 To compile this project download the entire source tree and run
 

@@ -10,4 +10,4 @@ The-Vala-Guide:
 	xelatex -shell-escape The-Vala-Guide.tex
 
 clean:
-	find . \( ! -regex '.*/\..*' \) \( -regex '.*\.\($(TEX_CLEAN)\)' \) -type f -print0 | xargs --null rm; rm *.pyg *.log *.out *.toc *.aux chapters/*.aux    
+	find . \( ! -regex '.*/\..*' \) \( -regex '.*\.\($(TEX_CLEAN)\)' \) -type f -print0 | xargs --null rm;

@@ -1,0 +1,26 @@
+\BOOKMARK [0][-]{chapter.1}{Some Background}{}
+\BOOKMARK [1][-]{section.1.1}{Why not C?}{chapter.1}
+\BOOKMARK [1][-]{section.1.2}{Why Vala?}{chapter.1}
+\BOOKMARK [0][-]{chapter.2}{The Basics of Vala}{}
+\BOOKMARK [1][-]{section.2.1}{Compiling the code}{chapter.2}
+\BOOKMARK [1][-]{section.2.2}{Understanding the code}{chapter.2}
+\BOOKMARK [1][-]{section.2.3}{Programming with Variables}{chapter.2}
+\BOOKMARK [1][-]{section.2.4}{A runthrough of some basic Vala Grammar}{chapter.2}
+\BOOKMARK [1][-]{section.2.5}{Whitespace}{chapter.2}
+\BOOKMARK [1][-]{section.2.6}{Comments}{chapter.2}
+\BOOKMARK [1][-]{section.2.7}{Identifiers}{chapter.2}
+\BOOKMARK [1][-]{section.2.8}{Keywords}{chapter.2}
+\BOOKMARK [1][-]{section.2.9}{Literals}{chapter.2}
+\BOOKMARK [1][-]{section.2.10}{Separators}{chapter.2}
+\BOOKMARK [0][-]{appendix.A}{GNU Free Documentation License}{}
+\BOOKMARK [1][-]{section.A.1}{Applicability and Definitions}{appendix.A}
+\BOOKMARK [1][-]{section.A.2}{Verbatim Copying}{appendix.A}
+\BOOKMARK [1][-]{section.A.3}{Copying in Quantity}{appendix.A}
+\BOOKMARK [1][-]{section.A.4}{Modifications}{appendix.A}
+\BOOKMARK [1][-]{section.A.5}{Combining Documents}{appendix.A}
+\BOOKMARK [1][-]{section.A.6}{Collections of Documents}{appendix.A}
+\BOOKMARK [1][-]{section.A.7}{Aggregation with Independent Works}{appendix.A}
+\BOOKMARK [1][-]{section.A.8}{Translation}{appendix.A}
+\BOOKMARK [1][-]{section.A.9}{Termination}{appendix.A}
+\BOOKMARK [1][-]{section.A.10}{Future Revisions of This License}{appendix.A}
+\BOOKMARK [1][-]{section.A.11}{Addendum: How to Use This License for Your Documents}{appendix.A}

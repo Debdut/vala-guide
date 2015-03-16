@@ -1,0 +1,143 @@
+\documentclass[openany]{book}
+
+\usepackage{booktabs}
+\usepackage{fontspec}
+\usepackage{color}
+\usepackage{fancyvrb}
+\usepackage{minted}
+\usepackage[pdfborder={0 0 0},colorlinks=true,linkcolor=black]{hyperref}
+
+\setromanfont{Adobe Garamond Pro}
+\setsansfont{Optima LT Std}
+\setmonofont{Nimbus Mono L}
+
+\urlstyle{same}
+
+%%------------------------------------------------------------
+% Commands for formatting code
+\renewcommand{\theFancyVerbLine}{
+  \bfseries\ttfamily\textcolor[RGB]{127,177,127}{\arabic{FancyVerbLine}}}
+\newcommand{\inlinecode}[1]{
+  {\bfseries\ttfamily\textcolor[RGB]{173,175,117}{#1}}}
+
+\definecolor{bg}{RGB}{32,32,32}
+\usemintedstyle{native}
+
+%%------------------------------------------------------------
+% Commands to make inputting formatted code easy\newminted{}
+\newcommand{\inputvalacodefile}[1]{\inputminted[bgcolor=bg,framesep=10pt,frame=lines,xleftmargin=10pt,rulecolor=\color{bg}]{vala}{#1}}
+
+\newcommand{\inputvalafilesection}[4]{\inputminted[bgcolor=bg,framesep=10pt,frame=lines,xleftmargin=10pt,rulecolor=\color{bg},firstline=#2,lastline=#3,gobble=#4]{vala}{#1}}
+
+\DefineVerbatimEnvironment{bashcommands}{Verbatim}{formatcom=\ttfamily\color[RGB]{22,22,22}}
+
+%%------------------------------------------------------------
+% formatting commands
+
+\sloppy
+\setlength{\topmargin}{0.125in}
+\setlength{\oddsidemargin}{-0.10in}
+\setlength{\evensidemargin}{0.00in}
+\setlength{\textwidth}{490pt}
+
+\setlength{\headsep}{3ex}
+\setlength{\textheight}{8in}
+
+\setlength{\parindent}{0.0in}
+\setlength{\parskip}{1.7ex plus 0.5ex minus 0.5ex}
+\renewcommand{\baselinestretch}{1.02}
+
+% see LaTeX Companion page 62
+\setlength{\topsep}{-0.0\parskip}
+\setlength{\partopsep}{-0.5\parskip}
+\setlength{\itemindent}{0.0in}
+\setlength{\listparindent}{0.0in}
+
+% see LaTeX Companion page 26
+% these are copied from /usr/local/teTeX/share/texmf/tex/latex/base/book.cls
+% all I changed is afterskip
+
+\makeatletter
+\renewcommand{\section}{\@startsection 
+    {section} {1} {0mm}%
+    {-3.5ex \@plus -1ex \@minus -.2ex}%
+    {0.7ex \@plus.2ex}%
+    {\normalfont\Large\bfseries}}
+\renewcommand\subsection{\@startsection {subsection}{2}{0mm}%
+    {-3.25ex\@plus -1ex \@minus -.2ex}%
+    {0.3ex \@plus .2ex}%
+    {\normalfont\large\bfseries}}
+\renewcommand\subsubsection{\@startsection {subsubsection}{3}{0mm}%
+    {-3.25ex\@plus -1ex \@minus -.2ex}%
+    {0.3ex \@plus .2ex}%
+    {\normalfont\normalsize\bfseries}}
+
+\makeatother
+
+\begin{document}
+
+%--title page--------------------------------------------------
+\pagebreak
+\thispagestyle{empty}
+
+\begin{flushright}
+\vspace*{2.5in}
+
+{\huge The Vala Guide}
+
+\vspace{1in}
+
+{\Large
+Debdut
+}
+
+
+\vspace{1in}
+
+{\Large Version 0.1}
+
+{\small \today}
+
+\vfill
+
+\end{flushright}
+
+%--copyright--------------------------------------------------
+\pagebreak
+\thispagestyle{empty}
+
+Copyright \copyright 2015 Debdut Karmakar.
+
+\vspace{0.25in}
+
+Permission is granted to copy, distribute, and/or modify this document
+under the terms of the GNU Free Documentation License, Version 1.1 or
+any later version published by the Free Software Foundation; with
+Invariant Sections being ``Preface'', with no Front-Cover Texts, and
+with no Back-Cover Texts.  A copy of the license is included in the
+appendix entitled ``GNU Free Documentation License.''
+
+The GNU Free Documentation License is available from \url{www.gnu.org}
+or by writing to the Free Software Foundation, Inc., 59 Temple Place,
+Suite 330, Boston, MA 02111-1307, USA.
+
+The original form of this book is \LaTeX\ source code.  Compiling this
+\LaTeX\ source has the effect of generating a device-independent
+representation of the book, which can be converted to other formats
+and printed.
+
+The \LaTeX\ source for this book is available from
+
+\hspace{0.25in}\url{http://github.com/vamega/The-Vala-Guide}
+
+\vspace{0.25in}
+
+%-- Chapters Begin-------------------------
+\fontsize{12pt}{18pt}\selectfont
+\tableofcontents
+\include{chapters/chapter1}
+\include{chapters/chapter2}
+\include{chapters/appendixA}
+
+\end{document}
+

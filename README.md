@@ -18,7 +18,8 @@ On Ubuntu/Debian the necessary Latex packages can be installed with the command
 sudo apt-get install texlive-xetex texlive-latex-recommended texlive-latex-extra
 
 You can installed the pygments source code highlighter with the following command.
-sudo apt-get install python-pygments
+
+$sudo apt-get install python-pygments
 
 Be warned however as this downloads nearly 400 MB of packages.
 
